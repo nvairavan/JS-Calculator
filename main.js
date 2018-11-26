@@ -16,7 +16,10 @@ function myFunction() {
   else if (oper == "-") {
     z = Number(x) - Number(y);
   }
+
   document.getElementById("txtnum1").value = x;
   document.getElementById("txtnum2").value = y;
   document.getElementById("txtresult").value = z;
+
+  console.log(z)
 }
